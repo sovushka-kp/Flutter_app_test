@@ -44,7 +44,7 @@ class _MyAppState extends State<MyApp> {
         color: _colorBac,
         child: Text(
           "Click on screen",
-          style: TextStyle(fontSize: 50, color: _colorText, fontFamily: "DancingScript"),
+          style: TextStyle(fontSize: 50, color: _colorText, fontFamily: "StickNoBills"),
           textDirection: TextDirection.ltr,
         ),
       ),
