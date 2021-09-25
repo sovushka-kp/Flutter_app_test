@@ -40,10 +40,10 @@ class _MyAppState extends State<MyApp> {
       onTap: () => generateColorBac(),
       onDoubleTap: () => generateColorText(),
       child: Container(
-        alignment: Alignment.topCenter,
+        alignment: Alignment.center,
         color: _colorBac,
         child: Text(
-          "Click on screen",
+          "Hey there",
           style: TextStyle(fontSize: 50, color: _colorText, fontFamily: "StickNoBills"),
           textDirection: TextDirection.ltr,
         ),
